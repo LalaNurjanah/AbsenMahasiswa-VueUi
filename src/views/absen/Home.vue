@@ -50,7 +50,7 @@ export default {
     let absen = ref([])
 
     onMounted(() => {
-      axios.get('http://127.0.0.1:8000')
+      axios.get('http://127.0.0.1:8000/api/absen')
       .then(response => {
         absen.value = response.data.data
       })

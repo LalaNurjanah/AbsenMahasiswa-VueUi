@@ -22,9 +22,7 @@
          <li class="nav-item">
             <router-link class="nav-link"  to="/mahasiswa">Mahasiswa</router-link>
           </li>
-           <li class="nav-item">
-            <router-link class="nav-link"  to="/absen">Absen</router-link>
-          </li>
+           
            <li class="nav-item">
             <router-link class="nav-link"  to="/Daftar_Matakuliah">Daftar Matakuliah</router-link>
           </li>
